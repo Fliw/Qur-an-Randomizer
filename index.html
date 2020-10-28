@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+	<title>Qur'an Randomizer</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-t-55 p-b-35 respon1">
+		<span></span>
+		<div class="flex-col-c p-t-50 p-b-50">
+			<h3 class="l1-txt1 txt-center p-b-10">
+				Assalamu'alaikum!
+			</h3>
+			<p class="txt-center l1-txt2 p-b-60">
+				Bismillahirrahmanirrahim
+			</p>
+			<p class="txt-center p-b-60 text-white">
+				Website Ini Saya Dedikasikan Untuk Kalian yang gabut dan ingin membaca al-quran secara random.
+			</p>
+			<button class="flex-c-m s1-txt2 size3 how-btn" data-toggle="modal" data-target="#QuranModal" onclick="GetApi()">
+				Random Al-Qur'an Now!
+			</button>
+		</div>
+		<span class="s1-txt3 txt-center">
+			Made by Fliw (Gabut Mode on!).
+		</span>
+	</div>
+	<div class="modal fade" id="QuranModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document" data-dismiss="modal">
+			<div class="modal-subscribe where1-parent bg0 bor2 size4 p-t-54 p-b-100 p-l-15 p-r-15">
+				<button class="btn-close-modal how-btn2 fs-26 where1 trans-04">
+					<i class="zmdi zmdi-close"></i>
+				</button>
+				<center>
+					<div class="wsize1 m-lr-auto">
+						<h3 class="m1-txt1 txt-center p-b-36">
+							<span class="bor1 p-b-6">Bismillah</span>
+						</h3>
+						<p class="m1-txt2 txt-center p-b-40">
+							Randomized Ayat Qur'an
+						</p>
+						<p class="m1-txt1 txt-center p-b-40" id="QuranAyat">
+						</p>
+						<p class="m1-txt2 txt-center p-b-40" id="QuranTerjemahan">
+						</p>
+						<p class="txt-center p-b-60" id="dataAyat">
+							<p class="txt-center p-b-60" id="keteranganSurat">
+							</p>
+						</p>
+						<button class="s1-txt2 size3 btn-success" onclick="GetApi()">
+							Random Lagi!
+						</button>
+					</div>
+				</center>
+			</div>
+		</div>
+	</div>
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
