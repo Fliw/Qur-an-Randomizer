@@ -26,3 +26,4 @@ fetch(url).then(function (response) {
     }
 });
 }
+AOS.init();
