@@ -622,3 +622,30 @@ input.input100 {
   /*---------------------------------------------*/
 
 }
+
+@media (max-width: 768px ){
+  .l1-txt1 {
+    font-size: 30px;
+  }
+  .l1-txt2 {
+    font-size: 20px;
+  }
+  .l1-txt3 {
+    font-size: 30px;
+  }
+  .respon1 {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  #keteranganSurat{
+    text-align: left !important;
+  }
+
+  #keteranganSurat br{   
+    content: "A" !important;
+    display: block !important;
+    margin-bottom: 0.8rem !important;
+}
+
+}
